@@ -166,5 +166,8 @@ def estimate(request):
 
 # def user_profile(request):
 #     User=user_details.objects.get(user=request.user)
-    
+
+
+def abc(request):
+    return render(request, 'Home2.html')
     

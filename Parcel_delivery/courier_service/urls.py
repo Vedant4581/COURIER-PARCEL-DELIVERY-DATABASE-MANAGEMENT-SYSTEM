@@ -13,5 +13,6 @@ urlpatterns = [
     path('place_parcel', views.place_parcel, name='place_parcel'),
     path('track_parcel', views.track_parcel, name='track_parcel'),
     path('estimate', views.estimate, name='estimate'),
+    path('abc', views.abc, name='abc'),
     # path('user_profile', views.user_profile, name='user_profile'),
 ]
